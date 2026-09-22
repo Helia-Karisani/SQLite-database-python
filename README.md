@@ -7,7 +7,7 @@ This project demonstrates how to use **SQLite with Python** to create, manage, a
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The goal of this project is to understand how Python interacts with a relational database using the built-in `sqlite3` module.
 
@@ -21,7 +21,7 @@ The workflow includes:
 
 ---
 
-## 🧱 Database Setup
+## Database Setup
 
 A SQLite database file is created:
 
@@ -35,7 +35,7 @@ SQLite stores the entire database in a single file, making it lightweight and ea
 
 ---
 
-## 🔌 Connecting to the Database
+## Connecting to the Database
 
 A connection is created using:
 
@@ -54,7 +54,7 @@ cursor = conn.cursor()
 
 ---
 
-## 🏗️ Creating Tables
+## Creating Tables
 
 Tables are created using SQL commands:
 
@@ -66,7 +66,7 @@ This defines the structure of the data, including columns such as name, ID, or d
 
 ---
 
-## ➕ Inserting Data
+## Inserting Data
 
 Data is added using `INSERT` statements:
 
@@ -84,7 +84,7 @@ conn.commit()
 
 ---
 
-## 🔍 Querying Data
+## Querying Data
 
 Data is retrieved using SQL queries:
 
@@ -98,7 +98,7 @@ You can also filter or aggregate data using conditions.
 
 ---
 
-## 📤 Displaying Results
+## Displaying Results
 
 Query results are fetched in Python:
 
@@ -110,7 +110,7 @@ These results can then be printed or processed further.
 
 ---
 
-## 🔚 Closing the Connection
+## Closing the Connection
 
 Once operations are complete, the connection should be closed:
 
@@ -122,7 +122,7 @@ This ensures resources are released properly.
 
 ---
 
-## 📊 Key Concepts
+## Key Concepts
 
 * SQLite is a **serverless database**
 * Python interacts with it using **DB-API**
@@ -133,7 +133,7 @@ This ensures resources are released properly.
 
 ---
 
-## 🧩 File Structure
+## File Structure
 
 ```
 SQLite-database-python.ipynb   # main notebook
@@ -144,7 +144,7 @@ README.md                     # project documentation
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 * The `.db-journal` file is automatically created by SQLite for transaction safety
 * It can be ignored in most cases
@@ -152,7 +152,7 @@ README.md                     # project documentation
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Add more complex queries (JOIN, GROUP BY)
 * Build a simple UI to interact with the database
