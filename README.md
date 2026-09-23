@@ -1,4 +1,7 @@
+
 # SQLite Database with Python
+
+
 
 This project demonstrates how to use **SQLite with Python** to create, manage, and query a relational database. It walks through the full workflow of connecting to a database, creating tables, inserting data, and retrieving results using SQL queries.
 
@@ -10,17 +13,23 @@ The goal of this project is to understand how Python interacts with a relational
 
 The workflow includes:
 
-1. Establishing a connection to a database
-2. Creating tables
-3. Inserting records
-4. Querying data
-5. Closing the connection properly
+1. Establishing a connection to a database  
+2. Creating tables  
+3. Inserting records  
+4. Querying data  
+5. Closing the connection properly  
 
 ---
 
 ## Database Setup
 
-A SQLite database file is created: `INSTRUCTOR.db`
+A SQLite database file is created:
+
+```
+
+INSTRUCTOR.db
+
+````
 
 SQLite stores the entire database in a single file, making it lightweight and easy to use without a server.
 
@@ -33,7 +42,7 @@ A connection is created using:
 ```python
 import sqlite3
 conn = sqlite3.connect("INSTRUCTOR.db")
-```
+````
 
 This allows Python to communicate with the database.
 
@@ -117,7 +126,9 @@ This ensures resources are released properly.
 
 * SQLite is a **serverless database**
 * Python interacts with it using **DB-API**
-* Data operations follow: connect → execute → commit → close
+* Data operations follow:
+
+  * connect → execute → commit → close
 * SQL is used for all database operations
 
 ---
@@ -126,9 +137,9 @@ This ensures resources are released properly.
 
 ```
 SQLite-database-python.ipynb   # main notebook
-INSTRUCTOR.db                  # database file
-INSTRUCTOR.db-journal          # SQLite transaction log
-README.md                      # project documentation
+INSTRUCTOR.db                 # database file
+INSTRUCTOR.db-journal         # SQLite transaction log
+README.md                     # project documentation
 ```
 
 ---
@@ -147,3 +158,7 @@ README.md                      # project documentation
 * Build a simple UI to interact with the database
 * Integrate with a web application
 * Use parameterized queries for security
+
+
+
+
